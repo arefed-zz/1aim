@@ -1,0 +1,25 @@
+@import "../../../variables.scss";
+
+ul[data-react-toolbox="list"]{
+	padding: 0; 
+}
+
+
+.listItem{
+	border-bottom: $border;
+	&:last-child {
+		border: none;
+	}
+}
+
+.image {
+	width: 100%;
+}
+
+.expanded {
+	background-color: #fAfAfA;
+}
+
+padding {
+	padding: 24px;
+}
